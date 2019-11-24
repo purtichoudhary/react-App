@@ -10,7 +10,7 @@ function BlogCard(props) {
         <Link to={props.url}><Card.Img variant="top" src={props.src} className="card-img"/></Link>
           {/* <a href={props.url}><Card.Img variant="top" src={props.src}/></a> */}
           <Card.Body>
-            <strong><Card.Title>{props.title}</Card.Title></strong>
+            <Link to={props.url}><strong><Card.Title>{props.title}</Card.Title></strong></Link>
             <Card.Text>
               {props.date}
             </Card.Text>

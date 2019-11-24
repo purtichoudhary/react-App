@@ -47,11 +47,11 @@ class Newsdata extends Component {
            <form action="/">
            {/* <Link to='/'><Button variant="primary">Home</Button></Link> */}
            </form>
-             <h3>
+             <h4>
               Top 10 Google News Headlies<Badge pill variant="success"> Refreshed {this.state.refreshTime} Times</Badge> 
               <Spinner animation="grow" />
-            </h3>
-           <ListGroup style={{height: '30px'}}>
+            </h4>
+           <ListGroup style={{height: '20px', fontSize: '15px'}}>
               {this.state.articles.map(articles =>
               <ListGroup.Item key={articles.url}><a href={articles.url} target="_blank">{articles.title}</a></ListGroup.Item>
               )}

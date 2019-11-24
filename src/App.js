@@ -16,12 +16,12 @@ function App() {
               <Header/>
             </Col>
         </Row>
-        <Row>
+        <Row >
             <Col sm={8}><div id="main"></div></Col>
-            <Col sm={4}><aside><Newsdata/></aside></Col>
+            <Col sm={4}><Newsdata/></Col>
         </Row>
         <Row>
-            <Col>
+            <Col sm={12}>
               <Footer/>
             </Col>
         </Row>
@@ -30,4 +30,3 @@ function App() {
 }
 
 export default App;
-// style={{maxHeight: '10%'}}

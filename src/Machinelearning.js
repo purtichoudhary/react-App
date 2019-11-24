@@ -12,11 +12,11 @@ class Machinelearning extends Component {
     return (
       <div>
       <Row>
-          <Col sm={5}><h2>Machine Learning</h2></Col>
+          <Col style={{paddingBottom: '20px'}} sm={5}><h2>Machine Learning</h2></Col>
           <Col><Link to='/'><Button variant="primary">Home</Button></Link></Col>
         </Row>
         {/* <h2>Machine Learning</h2> */}
-        <img src={require('./images/blog3.jpg')} />
+        <img src={require('./images/blog3.jpg')} style={{maxWidth: '300px', maxHeight: '400px', paddingBottom: '20px'}}/>
         <p>
           Machine learning is a method of data analysis that automates analytical model building. It is a branch of artificial
            intelligence based on the idea that systems can learn from data, identify patterns and make decisions with minimal human
