@@ -1,10 +1,21 @@
 import React, { Component } from "react";
- 
+import {Container, Row, Col, Button} from "react-bootstrap";
+import {
+  Route,
+  NavLink,
+  Link,
+  HashRouter
+} from "react-router-dom";
+
 class Wearabletech extends Component {
   render() {
     return (
       <div>
-        <h2>Wearable Technology</h2>
+        <Row>
+          <Col sm={5}><h2>Wearable Technology</h2></Col>
+          <Col><Link to='/'><Button variant="primary">Home</Button></Link></Col>
+        </Row>
+        {/* <h2>Wearable Technology</h2> */}
         <img src={require('./images/blog2.jpg')} />
         <p>
           This technology was developed almost specifically for the healthcare industry. The first and most popular wearables were the 

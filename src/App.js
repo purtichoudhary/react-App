@@ -4,19 +4,21 @@ import './App.css';
 import Main from './Main.js'
 import Header from './Header'
 import Footer from './Footer'
-import {Container, Row, Col} from "react-bootstrap";
-
+import {Container, Row, Col} from "react-bootstrap"
+import Newsdata from "./Newsdata"
+import './index.css'
 
 function App() {
   return (
     <Container id="appContainer">
-        <Row>
+        <Row style={{paddingBottom: '20px'}}>
             <Col>
               <Header/>
             </Col>
         </Row>
         <Row>
-            <Col><Main/></Col>
+            <Col sm={8}><div id="main"></div></Col>
+            <Col sm={4}><aside><Newsdata/></aside></Col>
         </Row>
         <Row>
             <Col>

@@ -26,9 +26,9 @@ header {
 #appContainer {
   margin-left: 0px;
   margin-right: 0px;
-  padding-left: 0px;
+  padding-left: 10px;
   padding-right: 0px;
-  max-width: 100%;
+  max-width: 99%;
   /* max-height: 100%; */
 }
 
@@ -55,4 +55,10 @@ header {
     margin: 16px;
     float: left;
   
+}
+.card-img {
+  height: auto;
+  max-height: 150px;
+  width: auto;
+  max-width: 350px;
 }

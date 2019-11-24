@@ -1,10 +1,24 @@
 import React, { Component } from "react";
- 
+import {Container, Row, Col, Button} from "react-bootstrap";
+import {
+  Route,
+  NavLink,
+  Link,
+  HashRouter
+} from "react-router-dom";
+import Header from './Header'
+import Footer from './Footer'
+import Newsdata from "./Newsdata";
+
 class Computerscience extends Component {
   render() {
     return (
-      <div>
-        <h2>Why Computer Science</h2>
+     <div>
+        <Row>
+          <Col sm={5}><h2>Why Computer Science?</h2></Col>
+          <Col><Link to='/'><Button variant="primary">Home</Button></Link></Col>
+        </Row>
+        {/* <h2>Why Computer Science?</h2> */}
         <img src={require('./images/blog1.jpg')} />
         <p>
           Computer Science is an exciting, challenging, and growing field that impacts the world and everyday life in countless ways. 
@@ -29,7 +43,7 @@ class Computerscience extends Component {
           pursue a PhD in Computer Science, these videos from the Computing Research Association show young researchers with PhDs 
           discussing their fascinating work in industry. 
         </p>
-      </div>
+      </div>    
     )}
 }
  

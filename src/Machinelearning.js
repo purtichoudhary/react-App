@@ -1,10 +1,21 @@
 import React, { Component } from "react";
- 
+import {Container, Row, Col, Button} from "react-bootstrap";
+import {
+  Route,
+  NavLink,
+  Link,
+  HashRouter
+} from "react-router-dom";
+
 class Machinelearning extends Component {
   render() {
     return (
       <div>
-        <h2>Machine Learning</h2>
+      <Row>
+          <Col sm={5}><h2>Machine Learning</h2></Col>
+          <Col><Link to='/'><Button variant="primary">Home</Button></Link></Col>
+        </Row>
+        {/* <h2>Machine Learning</h2> */}
         <img src={require('./images/blog3.jpg')} />
         <p>
           Machine learning is a method of data analysis that automates analytical model building. It is a branch of artificial
