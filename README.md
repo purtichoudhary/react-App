@@ -13,6 +13,7 @@ Unzip it and open tne command promt.
 Go to tihs directory and give the following commands:
 
 npm install
+
 npm start
 
 This will open the webpage.
