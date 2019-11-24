@@ -6,9 +6,10 @@ import Header from './Header'
 import Footer from './Footer'
 import {Container, Row, Col} from "react-bootstrap";
 
+
 function App() {
   return (
-    <Container>
+    <Container id="appContainer">
         <Row>
             <Col>
               <Header/>
@@ -27,3 +28,4 @@ function App() {
 }
 
 export default App;
+// style={{maxHeight: '10%'}}
