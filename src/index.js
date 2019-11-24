@@ -6,16 +6,14 @@ import Main from './Main';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
-    Link,
     Route,
-    HashRouter,
-    BrowseRouter
+    HashRouter
 } from "react-router-dom";
 
 import Wearabletech from "./Wearabletech";
 import Machinelearning from "./Machinelearning";
 import Computerscience from "./Computerscience";
-import Newsdata from "./Newsdata";
+
 
 ReactDOM.render(
   <App/>, 

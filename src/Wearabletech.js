@@ -1,22 +1,16 @@
 import React, { Component } from "react";
-import {Container, Row, Col, Button} from "react-bootstrap";
-import {
-  Route,
-  NavLink,
-  Link,
-  HashRouter
-} from "react-router-dom";
+import { Row, Col } from "react-bootstrap";
+
 
 class Wearabletech extends Component {
   render() {
     return (
       <div>
         <Row>
-          <Col sm={5}><h2>Wearable Technology</h2></Col>
-          <Col><Link to='/'><Button variant="primary">Home</Button></Link></Col>
+          <Col style={{paddingBottom: '20px'}} sm={5}><h2>Wearable Technology</h2></Col>
         </Row>
-        {/* <h2>Wearable Technology</h2> */}
-        <img src={require('./images/blog2.jpg')} />
+        
+        <img src={require('./images/blog2.jpg')} alt="" style={{maxWidth: '300px', maxHeight: '400px', paddingBottom: '20px'}}/>
         <p>
           This technology was developed almost specifically for the healthcare industry. The first and most popular wearables were the 
           Jawbone and Fitbit—designed to track a person’s physical activity throughout the day. In the beginning, they were little

@@ -15,9 +15,10 @@ code {
 /* Style the header */
 header {
   background-image: url("./images/technology-development.jpg");
-  padding: 10px;
-  text-align: left;
-  font-size: 70px;
+  padding: 15px;
+  padding-top: 40px;
+  text-align: center;
+  font-size: 90px;
   color: whitesmoke;
   height: 150px;
   font-style: oblique;
@@ -31,42 +32,10 @@ header {
   max-width: 99%;
 }
 
-.Machinelearning img {
-  max-width: 150px;
-  max-height: 200 px;
-}
 
-.Wearabletech img {
-  max-width: 150px;
-  max-height: 200px;
-}
-/* .clear-fix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-#root .blog-post {
-  width: 100%;
-}
-
-#root .blog-post .post img {
-  width: 100%;
-  height:150px;
-} */
-
-/* #root .blog-post .post {
-    background-color:white;
-    width: 30%;
-    border: 5px solid rgb(7, 7, 85);
-    padding: 5px;
-    margin: 16px;
-    float: left;
-  
-} */
 .card-img {
   height: auto;
-  max-height: 135px;
+  max-height: 180px;
   width: auto;
-  max-width: 350px;
+  max-width: 100%;
 }

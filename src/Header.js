@@ -4,7 +4,7 @@ class Header extends Component {
     render() {
         return (
             <header>
-                React Assignment
+                <h1>Blog Page</h1>
             </header>
         );
     }

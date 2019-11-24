@@ -1,25 +1,14 @@
 import React, { Component } from "react";
-import {Container, Row, Col, Button} from "react-bootstrap";
-import {
-  Route,
-  NavLink,
-  Link,
-  HashRouter
-} from "react-router-dom";
-import Header from './Header'
-import Footer from './Footer'
-import Newsdata from "./Newsdata";
+import { Row, Col } from "react-bootstrap";
 
 class Computerscience extends Component {
   render() {
     return (
      <div>
         <Row>
-          <Col sm={5}><h2>Why Computer Science?</h2></Col>
-          <Col><Link to='/'><Button variant="primary">Home</Button></Link></Col>
+          <Col style={{paddingBottom: '20px'}} sm={5}><h2>Why Computer Science?</h2></Col>
         </Row>
-        {/* <h2>Why Computer Science?</h2> */}
-        <img src={require('./images/blog1.jpg')} />
+        <img src={require('./images/blog1.jpg')} alt="" style={{maxWidth: '300px', maxHeight: '400px', paddingBottom: '20px'}}/>
         <p>
           Computer Science is an exciting, challenging, and growing field that impacts the world and everyday life in countless ways. 
           Computer scientists are involved in creating technology and systems that are used in a wide range of industries, 

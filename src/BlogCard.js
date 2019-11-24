@@ -8,7 +8,6 @@ function BlogCard(props) {
   return (
      <Card style={{ width: '18rem' }}>
         <Link to={props.url}><Card.Img variant="top" src={props.src} className="card-img"/></Link>
-          {/* <a href={props.url}><Card.Img variant="top" src={props.src}/></a> */}
           <Card.Body>
             <Link to={props.url}><strong><Card.Title>{props.title}</Card.Title></strong></Link>
             <Card.Text>
